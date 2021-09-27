@@ -51,9 +51,9 @@ a {
   color: inherit;
 }
 
-h3,
-h4,
-h5 {
+h1,
+h2,
+h3 {
   color: var(--clr-dark-blue);
 }
 
@@ -98,14 +98,14 @@ header .header-container {
   text-align: center;
 }
 
-header .header-container h3 {
+header .header-container h1 {
   font-size: 30px;
   line-height: 40px;
   font-weight: var(--w-semi-bold);
   margin-bottom: 10px;
 }
 
-header .header-container h3 .text-extra-light {
+header .header-container h1 .text-extra-light {
   font-weight: var(--w-extra-light);
 }
 
