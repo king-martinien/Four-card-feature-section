@@ -29,10 +29,14 @@ header {
     margin: 45px 0;
 
     .header-container {
-      h3 {
-        font-size: 20px;
+      h1 {
+        font-size: 22px;
         line-height: 30px;
         margin-bottom: 12px;
+
+        .text-extra-light {
+          display: block;
+        }
       }
 
       .description {

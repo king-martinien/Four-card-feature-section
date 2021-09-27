@@ -117,10 +117,13 @@ header .header-container .description {
   header {
     margin: 45px 0;
   }
-  header .header-container h3 {
-    font-size: 20px;
+  header .header-container h1 {
+    font-size: 22px;
     line-height: 30px;
     margin-bottom: 12px;
+  }
+  header .header-container h1 .text-extra-light {
+    display: block;
   }
   header .header-container .description {
     line-height: 24px;
