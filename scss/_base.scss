@@ -1,0 +1,59 @@
+:root {
+  /*
+        COLORS
+  */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-red: hsl(0, 78%, 62%);
+  --clr-cyan: hsl(180, 62%, 55%);
+  --clr-orange: hsl(34, 97%, 64%);
+  --clr-blue: hsl(212, 86%, 64%);
+  --clr-dark-blue: hsl(234, 12%, 34%);
+  --clr-grayish-blue: hsl(229, 6%, 66%);
+  --clr-very-light-gray: hsl(0, 0%, 98%);
+
+  /*
+    FONT-SIZE
+  */
+  --fz-body: 15px;
+
+  /*
+    WEIGHTS
+  */
+  --w-extra-light: 200;
+  --w-regular: 400;
+  --w-semi-bold: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  &::selection{
+    background-color: var(--clr-cyan);
+    color: var(--clr-white);
+  }
+}
+
+body {
+  font-size: var(--fz-body);
+  font-family: Poppins;
+  background-color: var(--clr-very-light-gray);
+  color: var(--clr-grayish-blue);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3,
+h4,
+h5 {
+  color: var(--clr-dark-blue);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
